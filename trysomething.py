@@ -44,27 +44,27 @@ def printInvoice(n):
         print(item["name"] , item["count"])
 
 def main():
-    #Comment out each question number for testing
+  
     #1
     string = input("Please enter a string: ")
     stringToReturn = string_both_ends(string)
     print(stringToReturn)
 
     #2
-    #n1 = input("Please enter first number: ")
-    #n2 = input("Please enter second number: ")
-    #nlist = findNum(int(n1), int(n2))
+    n1 = input("Please enter first number: ")
+    n2 = input("Please enter second number: ")
+    nlist = findNum(int(n1), int(n2))
     #print(nlist)
 
     #3
-    #dict1 = input("Input first dictionary: ")
-    #dict2 = input("Input second dictionary: ")
-    #dictCombined = combineDict(dict1, dict2)
-    #print(dictCombined)
+    dict1 = input("Input first dictionary: ")
+    dict2 = input("Input second dictionary: ")
+    dictCombined = combineDict(dict1, dict2)
+    print(dictCombined)
 
     #4
-    #count = input("Number of items: ")
-    #printInvoice(int(count))
+    count = input("Number of items: ")
+    printInvoice(int(count))
 
 if __name__ == "__main__":
     main()
